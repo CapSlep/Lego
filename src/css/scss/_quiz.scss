@@ -1,0 +1,41 @@
+@use 'variables';
+
+
+/* ============================================================ QUIZ BLOCK ============================================================ */
+
+
+.game__title-holder {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.game__answers {
+    display: flex;
+    flex-wrap: wrap; // Allow wrapping of elements
+    gap: 1rem;
+}
+
+.game__answer {
+    flex: 1; // Allows the button to grow if needed
+    padding: 0.5rem 0.75rem;
+    border-radius: 5px;
+    background-color: #00A3DA;
+    border: 2px solid #00A3DA;
+    color: #fff;
+}
+
+.game__answer:nth-child(3) {
+    flex-basis: 100%; // Make the third button take the full width
+}
+
+.game__answer:hover {
+    background-color: rgba($color: #000000, $alpha: 0);
+    color: #000000;
+}
+
+.quiz__game {
+    padding: 1.5rem;
+    border: 1px solid #47d1ff;
+    box-shadow: 0 0 5px 5px #0744a7;
+    border-radius: 15px;
+}
