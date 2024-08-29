@@ -63,7 +63,8 @@
                 "./img/products/starwars/starwars1.png",
                 "./img/products/starwars/starwars2.png",
                 "./img/products/starwars/starwars3.png"
-            ]
+            ],
+            "offerImg": "./img/products/starwars/starwars.png"
         },
         {
             "name": "harrypotter",
@@ -74,7 +75,8 @@
                 "./img/products/hp/harrypotter1.png",
                 "./img/products/hp/harrypotter2.png",
                 "./img/products/hp/harrypotter3.png"
-            ]
+            ],
+            "offerImg": "./img/products/hp/harrypotter.png"
         },
         {
             "name": "architecture",
@@ -85,7 +87,8 @@
                 "./img/products/arch/architecture1.png",
                 "./img/products/arch/architecture2.png",
                 "./img/products/arch/architecture3.png"
-            ]
+            ],
+            "offerImg": "./img/products/arch/architecture.png"
         },
         {
             "name": "marvel",
@@ -96,7 +99,8 @@
                 "./img/products/marvel/marvel1.png",
                 "./img/products/marvel/marvel2.png",
                 "./img/products/marvel/marvel3.png"
-            ]
+            ],
+            "offerImg": "./img/products/marvel/marvel.png"
         },
         {
             "name": "tech",
@@ -107,7 +111,8 @@
                 "./img/products/tech/technic1.png",
                 "./img/products/tech/technic2.png",
                 "./img/products/tech/technic3.png"
-            ]
+            ],
+            "offerImg": "./img/products/tech/technic.png"
         }
     ]
 }

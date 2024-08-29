@@ -44,7 +44,7 @@ export default function GeneralPage({
                 <div className="slider__wrapper">
                     <img
                         id="selectedProductPath"
-                        src={selectedProduct.imgs[0]}
+                        src={selectedProduct.offerImg}
                         style={{ display: "none" }}
                     />
                     <Slider slidesToShow={selectedProduct.imgs}></Slider>
