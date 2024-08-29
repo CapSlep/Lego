@@ -1,64 +1,64 @@
 {
-    "priceOld": "£460.99",
-    "priceNew": "£1.97",
+    "priceOld": "460,99 €",
+    "priceNew": "2€",
     "productName": "Samsung Galaxy Ring",
     "header": {
-        "shipping": "Free delivery on orders within the UK!"
+        "shipping": "Kostenlose Lieferung bei Bestellungen innerhalb Deutschlands!"
     },
     "quizPage": {
-        "title": "Congratulations, you can participate in a new promotion from Lego!",
-        "textSelling": "Sale of 3 construction sets in honour of Lego and Nike collaboration for",
+        "title": "Herzlichen Glückwunsch, Sie können an einer neuen Promotion von Lego teilnehmen!",
+        "textSelling": "Verkauf von 3 Bausätzen zur Feier der Zusammenarbeit von Lego und Nike für",
         "texts": [
-            "Danish toy manufacturer Lego has entered into a long-term agreement with American sportswear brand Nike. The partnership is aimed at mutual audience engagement. In honour of this Lego is launching an attractive promotion where you can get a bundle of 3 different Lego sets for only "
+            "Der dänische Spielzeughersteller Lego hat eine langfristige Vereinbarung mit der amerikanischen Sportbekleidungsmarke Nike getroffen. Die Partnerschaft zielt auf die gegenseitige Einbindung des Publikums ab. Zu diesem Anlass startet Lego eine attraktive Aktion, bei der Sie ein Bundle aus 3 verschiedenen Lego-Sets für nur "
         ],
-        "initiationText": "To get a Lego bundle, fill out the form to confirm that you are an individual.",
+        "initiationText": "Um ein Lego-Bundle zu erhalten, füllen Sie das Formular aus, um zu bestätigen, dass Sie eine Privatperson sind.",
         "quiz": [
             {
-                "question": "Which bundle of 3 sets would you like to receive?",
+                "question": "Welches Bundle aus 3 Sets möchten Sie erhalten?",
                 "answers": [
                     "Star Wars",
                     "Harry Potter",
-                    "Architecture",
+                    "Architektur",
                     "Technic",
                     "Marvel"
                 ]
             },
             {
-                "question": "What is your age?",
+                "question": "Wie alt sind Sie?",
                 "answers": [
-                    "18-25 years old",
-                    "25-45 years old",
-                    "45-65+ years old"
+                    "18-25 Jahre",
+                    "25-45 Jahre",
+                    "45-65+ Jahre"
                 ]
             }
         ]
     },
-    "footer": "©2024 The LEGO Group. All rights reserved.",
+    "footer": "©2024 The LEGO Group. Alle Rechte vorbehalten.",
     "notifications": [
         {
             "img": "./img/products/starwars/starwars1.png",
-            "location": "London, UK",
-            "name": "John Smith",
-            "text": "Just bought LEGO Bundle for ",
-            "from": "from"
+            "location": "Berlin, Deutschland",
+            "name": "John Schmidt",
+            "text": "Hat gerade ein LEGO-Bundle für ",
+            "from": "aus"
         },
         {
             "img": "./img/products/arch/architecture1.png",
-            "location": "Manchester, UK",
-            "name": "Emily Brown",
-            "text": "Just bought LEGO Bundle for ",
-            "from": "from"
+            "location": "München, Deutschland",
+            "name": "Emily Braun",
+            "text": "Hat gerade ein LEGO-Bundle für ",
+            "from": "aus"
         }
     ],
     "bundlesText": "Sets",
-    "checkoutButton": "Go to Delivery",
-    "descriptionName": "Learn more about",
+    "checkoutButton": "Zur Lieferung gehen",
+    "descriptionName": "Erfahren Sie mehr über",
     "products": [
         {
             "name": "starwars",
-            "nameVisible": "Star Wars 3 sets bundle",
-            "priceOld": "£460.99",
-            "descriptionText": "Where to begin… LEGO® _Star Wars_™ is one of our most beloved themes ever, inspiring Jedi of all ages for over two decades. From several feet long Imperial Star Destroyers, to minutely detailed minifigures, and even classic family-friendly video games, there are more ways to enjoy LEGO Star Wars than you can shake a lightsaber at…",
+            "nameVisible": "Star Wars 3-Sets-Bundle",
+            "priceOld": "546.99€",
+            "descriptionText": "Wo soll man anfangen... LEGO® _Star Wars_™ ist eines unserer beliebtesten Themen überhaupt und inspiriert seit über zwei Jahrzehnten Jedi jeden Alters. Von mehreren Fuß langen imperialen Sternenzerstörern über minutös detaillierte Minifiguren bis hin zu klassischen, familienfreundlichen Videospielen gibt es mehr Möglichkeiten, LEGO Star Wars zu genießen, als man mit einem Lichtschwert machen kann...",
             "imgs": [
                 "./img/products/starwars/starwars1.png",
                 "./img/products/starwars/starwars2.png",
@@ -68,9 +68,9 @@
         },
         {
             "name": "harrypotter",
-            "nameVisible": "Harry Potter 3 sets bundle",
-            "priceOld": "£559.99",
-            "descriptionText": "First years! This way, please. All other years? Um… This way too. It’s time to put on your LEGO™ Talking Sorting Hat™ and celebrate your House pride!",
+            "nameVisible": "Harry Potter 3-Sets-Bundle",
+            "priceOld": "644.99€",
+            "descriptionText": "Erstklässler! Dieser Weg bitte. Alle anderen Jahrgänge? Ähm... Auch dieser Weg. Es ist Zeit, Ihren LEGO™ sprechenden Sprechenden Hut™ aufzusetzen und Ihren Hausstolz zu feiern!",
             "imgs": [
                 "./img/products/hp/harrypotter1.png",
                 "./img/products/hp/harrypotter2.png",
@@ -80,9 +80,9 @@
         },
         {
             "name": "architecture",
-            "nameVisible": "Architecture 3 sets bundle",
-            "priceOld": "£430.99",
-            "descriptionText": "The LEGO® Architecture range transports adult model makers to the world’s most iconic landmarks and city skylines. These premium-quality sets offer a rewarding, mindful building experience and result in impressive display models that provide pleasure long after the construction work has been completed. LEGO Architecture takes adult model makers on the creative building journey of their life. And, for more hands-on, minds-on LEGO sets for adults, check out the complete collection at Adults Welcome.",
+            "nameVisible": "Architektur 3-Sets-Bundle",
+            "priceOld": "510.99€",
+            "descriptionText": "Die LEGO® Architecture-Reihe versetzt erwachsene Modellbauer in die Welt der ikonischsten Wahrzeichen und Stadtpanoramen der Welt. Diese hochwertigen Sets bieten ein lohnendes, achtsames Bauerlebnis und resultieren in beeindruckenden Ausstellungsmodellen, die noch lange nach Abschluss der Bauarbeiten Freude bereiten. LEGO Architecture nimmt erwachsene Modellbauer mit auf die kreative Reise ihres Lebens. Und für weitere praktische, geistig anregende LEGO-Sets für Erwachsene schauen Sie sich die komplette Kollektion bei Adults Welcome an.",
             "imgs": [
                 "./img/products/arch/architecture1.png",
                 "./img/products/arch/architecture2.png",
@@ -92,9 +92,9 @@
         },
         {
             "name": "marvel",
-            "nameVisible": "Marvel 3 sets bundle",
-            "priceOld": "£614.99",
-            "descriptionText": "Every Marvel fan has a hero saga mapped out in their mind, rivaling the Marvel movies. Unlock it by letting yourself control your own universe with these awesome Lego Marvel toys. Excelsior!",
+            "nameVisible": "Marvel 3-Sets-Bundle",
+            "priceOld": "728.99€",
+            "descriptionText": "Jeder Marvel-Fan hat eine Heldensaga im Kopf, die es mit den Marvel-Filmen aufnehmen kann. Entfesseln Sie es, indem Sie Ihr eigenes Universum mit diesen großartigen Lego Marvel-Spielzeugen kontrollieren. Excelsior!",
             "imgs": [
                 "./img/products/marvel/marvel1.png",
                 "./img/products/marvel/marvel2.png",
@@ -104,9 +104,9 @@
         },
         {
             "name": "tech",
-            "nameVisible": "Technic 3 sets bundle",
-            "priceOld": "£590.99",
-            "descriptionText": "Through mighty mechanisms or fine-tuned finesse features, LEGO® Technic™ makes things work. Behind each set are 3 principles: authenticity (like making our vehicles feel as lifelike as possible), functionality (like creating engines that work just like in the real world) and challenging (to give you the most rewarding build experience possible)!",
+            "nameVisible": "Technic 3-Sets-Bundle",
+            "priceOld": "699.99€",
+            "descriptionText": "Durch mächtige Mechanismen oder fein abgestimmte Finesse-Features macht LEGO® Technic™ Dinge möglich. Hinter jedem Set stehen 3 Prinzipien: Authentizität (wie das Gefühl, dass unsere Fahrzeuge so lebensecht wie möglich sind), Funktionalität (wie die Schaffung von Motoren, die genauso funktionieren wie in der realen Welt) und Herausforderung (um Ihnen das lohnendste Bauerlebnis zu bieten)!",
             "imgs": [
                 "./img/products/tech/technic1.png",
                 "./img/products/tech/technic2.png",
