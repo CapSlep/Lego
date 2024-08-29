@@ -18,6 +18,9 @@ export default function App() {
         // const offerButton = document.querySelector(".checkout__button");
 
         let redirectLink = document.querySelector("#redirectLink").href;
+        let selectedProductPath = document.querySelector(
+            "#selectedProductPath"
+        ).src;
 
         if (!redirectLink) {
             console.error("Offer link not found");
@@ -26,19 +29,12 @@ export default function App() {
 
         // Set parameters for redirection
         let adRedirectName = selectedProduct.nameVisible;
-        let img_url = selectedProduct.imgs[0];
 
         // Send the fbq event
         fbq("track", "InitiateCheckout");
 
         // Check if the link already has parameters
         var separator = redirectLink.includes("?") ? "&" : "?";
-        // Get the base URL of the current site
-        let baseURL = window.location.origin;
-
-        // Construct the full URL
-        let fullImageUrl = new URL(img_url, baseURL).href;
-        // Now you can encode the full URL if needed
 
         // Redirect with new parameters
         window.location.href =
@@ -47,7 +43,7 @@ export default function App() {
             "adRedirectName=" +
             encodeURIComponent(adRedirectName) +
             "&adRedirectImg=" +
-            encodeURIComponent(fullImageUrl);
+            encodeURIComponent(selectedProductPath);
     }
 
     function buyHandler(event) {

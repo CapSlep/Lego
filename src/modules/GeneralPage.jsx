@@ -42,6 +42,11 @@ export default function GeneralPage({
         >
             <div className="hero__content-wrapper flex-row">
                 <div className="slider__wrapper">
+                    <img
+                        id="selectedProductPath"
+                        src={selectedProduct.imgs[0]}
+                        style={{ display: "none" }}
+                    />
                     <Slider slidesToShow={selectedProduct.imgs}></Slider>
                 </div>
                 <div className="hero__content flex-column">
