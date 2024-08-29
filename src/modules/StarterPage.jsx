@@ -22,14 +22,14 @@ export default function StarterPage({ showPage, quizFinishEvent }) {
                 showPage ? "fade-in" : "fade-out"
             } ${isHidden ? "hidden" : ""}`}
         >
-            <div className="quiz__logo-wrapper">
-                <img src="./img/logo.png" alt="LEGO LOGO" loading="lazy" />
-            </div>
             <h2 className="quiz__title">{data.quizPage.title}</h2>
             <p className="quiz__selling">
                 {data.quizPage.textSelling}{" "}
                 <span className="price-new">{data.priceNew}</span>
             </p>
+            <div className="quiz__logo-wrapper">
+                <img src="./img/logo.png" alt="LEGO LOGO" loading="lazy" />
+            </div>
             <div className="quiz__texts flex-column">
                 {data.quizPage.texts.map((text, index) => {
                     return (
