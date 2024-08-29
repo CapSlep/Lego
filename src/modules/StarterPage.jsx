@@ -43,6 +43,7 @@ export default function StarterPage({ showPage, quizFinishEvent }) {
             <div className="quiz__img-wrapper">
                 <img src="./img/land.jpg" alt="RINGS" />
             </div>
+            <p className="quiz__selling">{data.quizPage.initiationText}</p>
             <Quiz
                 quizData={data.quizPage.quiz}
                 quizFinishEvent={quizFinishEvent}
