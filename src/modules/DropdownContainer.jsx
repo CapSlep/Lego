@@ -1,5 +1,3 @@
-import { DataContext, useData } from "../DataContext";
-import DropdownDescription from "./DropdownDescription";
 import DropdownFeatures from "./DropdownFeatures";
 import { useState } from "react";
 

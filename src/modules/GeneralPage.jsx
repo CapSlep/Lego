@@ -35,63 +35,68 @@ export default function GeneralPage({
     }, [showPage]);
 
     return (
-        <div
-            className={`hero__page flex-row container 
+        <section
+            className={`hero__page flex-column container 
             ${isFading ? "fade-in" : "fade-out"}
             ${isHidden ? "hidden fade-out" : ""}`}
         >
-            <div className="slider__wrapper">
-                <Slider slidesToShow={selectedProduct.imgs}></Slider>
-            </div>
-            <div className="hero__content flex-column">
-                <div className="hero__header flex-column">
-                    <h2 className="hero__product-name">
-                        {selectedProduct.nameVisible}
-                    </h2>
-                    <div className="hero__product-ratingbox flex-row">
-                        <span className="hero__product-stars">★★★★★</span>
-                        <span className="hero__product-ratings">
-                            4.8 (1007)
-                        </span>
+            <div className="hero__content-wrapper flex-row">
+                <div className="slider__wrapper">
+                    <Slider slidesToShow={selectedProduct.imgs}></Slider>
+                </div>
+                <div className="hero__content flex-column">
+                    <div className="hero__header flex-column">
+                        <h2 className="hero__product-name">
+                            {selectedProduct.nameVisible}
+                        </h2>
+                        <div className="hero__product-ratingbox flex-row">
+                            <span className="hero__product-stars">★★★★★</span>
+                            <span className="hero__product-ratings">
+                                4.8 (1007)
+                            </span>
+                        </div>
+                        <div className="hero__product-pricebox flex-row">
+                            <span className="price-new">{data.priceNew}</span>
+                            <span className="price-old">
+                                {selectedProduct.priceOld}
+                            </span>
+                        </div>
                     </div>
-                    <div className="hero__product-pricebox flex-row">
-                        <span className="price-new">{data.priceNew}</span>
-                        <span className="price-old">
-                            {selectedProduct.priceOld}
-                        </span>
+                    <div className="hero__colors">
+                        <h3 className="hero__colors-title">
+                            {data.bundlesText}
+                        </h3>
                     </div>
+                    <div className="selection__holder flex-row">
+                        {data.products.map((product) => {
+                            const isSelected =
+                                product.name === selectedProduct?.name;
+                            return (
+                                <button
+                                    className={`selector__button ${
+                                        isSelected
+                                            ? "selector__button-selected"
+                                            : ""
+                                    }`}
+                                    key={product.name}
+                                    onClick={() => {
+                                        handleProductSelection(product.name);
+                                    }}
+                                >
+                                    {product.nameVisible}
+                                </button>
+                            );
+                        })}
+                    </div>
+                    <button onClick={buyHandler} className={`checkout__button`}>
+                        {data.checkoutButton}
+                    </button>
                 </div>
-                <div className="hero__colors">
-                    <h3 className="hero__colors-title">{data.bundlesText}</h3>
-                </div>
-                <div className="selection__holder flex-row">
-                    {data.products.map((product) => {
-                        const isSelected =
-                            product.name === selectedProduct?.name;
-                        return (
-                            <button
-                                className={`selector__button ${
-                                    isSelected
-                                        ? "selector__button-selected"
-                                        : ""
-                                }`}
-                                key={product.name}
-                                onClick={() => {
-                                    handleProductSelection(product.name);
-                                }}
-                            >
-                                {product.nameVisible}
-                            </button>
-                        );
-                    })}
-                </div>
-                <button onClick={buyHandler} className={`checkout__button`}>
-                    {data.checkoutButton}
-                </button>
-                <DropdownContainer
-                    selectedProduct={selectedProduct}
-                ></DropdownContainer>
             </div>
-        </div>
+
+            <DropdownContainer
+                selectedProduct={selectedProduct}
+            ></DropdownContainer>
+        </section>
     );
 }

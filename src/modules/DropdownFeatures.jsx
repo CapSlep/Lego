@@ -1,4 +1,4 @@
-import { DataContext, useData } from "../DataContext";
+import { useData } from "../DataContext";
 
 export default function DropdownFeatures({
     isOpen,
@@ -20,15 +20,6 @@ export default function DropdownFeatures({
                         {selectedProduct.descriptionText}
                     </p>
                 </div>
-                {/* {data.features.map((feature, index) => {
-                    return (
-                        <div key={index} className="dropdown__item flex-column">
-                            <p className="dropdown__text">
-                                {selectedProduct.descriptionText}
-                            </p>
-                        </div>
-                    );
-                })} */}
             </div>
         </div>
     );
