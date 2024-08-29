@@ -23,7 +23,7 @@ export default function StarterPage({ showPage, quizFinishEvent }) {
             } ${isHidden ? "hidden" : ""}`}
         >
             <div className="quiz__logo-wrapper">
-                <img src="./img/logo.png" alt="LEGO LOGO" />
+                <img src="./img/logo.png" alt="LEGO LOGO" loading="lazy" />
             </div>
             <h2 className="quiz__title">{data.quizPage.title}</h2>
             <p className="quiz__selling">
@@ -41,7 +41,7 @@ export default function StarterPage({ showPage, quizFinishEvent }) {
                 })}
             </div>
             <div className="quiz__img-wrapper">
-                <img src="./img/land.jpg" alt="RINGS" />
+                <img src="./img/land.jpg" alt="PROMOTION" loading="lazy" />
             </div>
             <p className="quiz__selling">{data.quizPage.initiationText}</p>
             <Quiz

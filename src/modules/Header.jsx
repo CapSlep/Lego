@@ -10,7 +10,7 @@ export default function Header() {
             </div>
             <div className="header__hat flex-row">
                 <div className="logo__small">
-                    <img src="./img/logo.png" alt="" />
+                    <img src="./img/logo.png" alt="" loading="lazy" />
                 </div>
                 <nav className="header__nav flex-row">
                     <a href="#" className="header__search">

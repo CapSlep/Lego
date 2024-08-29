@@ -39,6 +39,7 @@ export default function Notifications() {
                 <img
                     src={data.notifications[currentNotification].img}
                     alt="Product"
+                    loading="lazy"
                 />
             </div>
             <div className="notification__panel flex-column">
