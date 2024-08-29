@@ -324,14 +324,23 @@ header {
 }
 
 .selector__button {
-  padding: 2px;
+  width: 100%;
+  padding: 0.5rem;
   border-radius: 5px;
   border: 0;
-  background-color: #fff;
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
   overflow: hidden;
+  background-color: #00A3DA;
+  border: 2px solid #00A3DA;
+  color: #fff;
+}
+
+.selector__button:hover {
+  border-color: #001b96;
+  background-color: rgba(0, 0, 0, 0);
+  color: #000000;
 }
 
 .selector__button-display {
@@ -342,7 +351,9 @@ header {
 }
 
 .selector__button-selected {
-  border: 3px solid #006bea;
+  background-color: rgba(0, 0, 0, 0);
+  color: #000000;
+  box-shadow: 0 0 11px 1px #5797ff;
 }
 
 .hero__header {
@@ -581,8 +592,8 @@ header {
 .checkout__button {
   width: 100%;
   padding: 0.75rem 1rem;
-  background-color: #006bea;
-  border-radius: 25px;
+  background-color: #E96F14;
+  border-radius: 10px;
   color: #fff;
 }
 

@@ -10,7 +10,7 @@ import { useState } from "react";
 
 export default function App() {
     const data = useData();
-    const [showQuiz, setShowQuiz] = useState(false);
+    const [showQuiz, setShowQuiz] = useState(true);
     const [selectedProduct, setSelectedProduct] = useState(data.products[0]);
 
     function getUrl() {
@@ -25,7 +25,7 @@ export default function App() {
         }
 
         // Set parameters for redirection
-        let adRedirectName = data.productName;
+        let adRedirectName = selectedProduct.nameVisible;
         let img_url = selectedProduct.imgs[0];
 
         // Send the fbq event

@@ -77,12 +77,13 @@
         },
         {
             "name": "architecture",
-            "nameVisible": "Architecture 3 sets bundles",
+            "nameVisible": "Architecture 3 sets bundle",
             "priceOld": "£430.99",
             "descriptionText": "The LEGO® Architecture range transports adult model makers to the world’s most iconic landmarks and city skylines. These premium-quality sets offer a rewarding, mindful building experience and result in impressive display models that provide pleasure long after the construction work has been completed. LEGO Architecture takes adult model makers on the creative building journey of their life. And, for more hands-on, minds-on LEGO sets for adults, check out the complete collection at Adults Welcome.",
             "imgs": [
                 "./img/products/arch/architecture1.png",
-                "./img/products/arch/architecture2.png"
+                "./img/products/arch/architecture2.png",
+                "./img/products/arch/architecture3.png"
             ]
         },
         {
@@ -92,7 +93,8 @@
             "descriptionText": "Every Marvel fan has a hero saga mapped out in their mind, rivaling the Marvel movies. Unlock it by letting yourself control your own universe with these awesome Lego Marvel toys. Excelsior!",
             "imgs": [
                 "./img/products/marvel/marvel1.png",
-                "./img/products/marvel/marvel2.png"
+                "./img/products/marvel/marvel2.png",
+                "./img/products/marvel/marvel3.png"
             ]
         },
         {
@@ -102,7 +104,8 @@
             "descriptionText": "Through mighty mechanisms or fine-tuned finesse features, LEGO® Technic™ makes things work. Behind each set are 3 principles: authenticity (like making our vehicles feel as lifelike as possible), functionality (like creating engines that work just like in the real world) and challenging (to give you the most rewarding build experience possible)!",
             "imgs": [
                 "./img/products/tech/technic1.png",
-                "./img/products/tech/technic2.png"
+                "./img/products/tech/technic2.png",
+                "./img/products/tech/technic3.png"
             ]
         }
     ]
