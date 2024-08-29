@@ -3,62 +3,62 @@
     "priceNew": "2€",
     "productName": "Samsung Galaxy Ring",
     "header": {
-        "shipping": "Kostenlose Lieferung bei Bestellungen innerhalb Deutschlands!"
+        "shipping": "Livraison gratuite pour les commandes en France!"
     },
     "quizPage": {
-        "title": "Herzlichen Glückwunsch, Sie können an einer neuen Promotion von Lego teilnehmen!",
-        "textSelling": "Verkauf von 3 Bausätzen zur Feier der Zusammenarbeit von Lego und Nike für",
+        "title": "Félicitations, vous pouvez participer à une nouvelle promotion de Lego !",
+        "textSelling": "Vente de 3 ensembles de construction en l'honneur de la collaboration entre Lego et Nike pour",
         "texts": [
-            "Der dänische Spielzeughersteller Lego hat eine langfristige Vereinbarung mit der amerikanischen Sportbekleidungsmarke Nike getroffen. Die Partnerschaft zielt auf die gegenseitige Einbindung des Publikums ab. Zu diesem Anlass startet Lego eine attraktive Aktion, bei der Sie ein Bundle aus 3 verschiedenen Lego-Sets für nur "
+            "Le fabricant danois de jouets Lego a conclu un accord à long terme avec la marque américaine de vêtements de sport Nike. Ce partenariat vise à engager mutuellement leurs publics. Pour célébrer cela, Lego lance une promotion attrayante où vous pouvez obtenir un lot de 3 ensembles Lego différents pour seulement "
         ],
-        "initiationText": "Um ein Lego-Bundle zu erhalten, füllen Sie das Formular aus, um zu bestätigen, dass Sie eine Privatperson sind.",
+        "initiationText": "Pour obtenir un lot Lego, remplissez le formulaire pour confirmer que vous êtes un particulier.",
         "quiz": [
             {
-                "question": "Welches Bundle aus 3 Sets möchten Sie erhalten?",
+                "question": "Quel lot de 3 ensembles souhaitez-vous recevoir?",
                 "answers": [
                     "Star Wars",
                     "Harry Potter",
-                    "Architektur",
+                    "Architecture",
                     "Technic",
                     "Marvel"
                 ]
             },
             {
-                "question": "Wie alt sind Sie?",
+                "question": "Quel est votre âge?",
                 "answers": [
-                    "18-25 Jahre",
-                    "25-45 Jahre",
-                    "45-65+ Jahre"
+                    "18-25 ans",
+                    "25-45 ans",
+                    "45-65+ ans"
                 ]
             }
         ]
     },
-    "footer": "©2024 The LEGO Group. Alle Rechte vorbehalten.",
+    "footer": "©2024 The LEGO Group. Tous droits réservés.",
     "notifications": [
         {
             "img": "./img/products/starwars/starwars1.png",
-            "location": "Berlin, Deutschland",
-            "name": "John Schmidt",
-            "text": "Hat gerade ein LEGO-Bundle für ",
-            "from": "aus"
+            "location": "Paris, France",
+            "name": "Jean Dupont",
+            "text": "Vient d'acheter un lot LEGO pour ",
+            "from": "de"
         },
         {
             "img": "./img/products/arch/architecture1.png",
-            "location": "München, Deutschland",
-            "name": "Emily Braun",
-            "text": "Hat gerade ein LEGO-Bundle für ",
-            "from": "aus"
+            "location": "Lyon, France",
+            "name": "Émilie Brun",
+            "text": "Vient d'acheter un lot LEGO pour ",
+            "from": "de"
         }
     ],
-    "bundlesText": "Sets",
-    "checkoutButton": "Zur Lieferung gehen",
-    "descriptionName": "Erfahren Sie mehr über",
+    "bundlesText": "Ensembles",
+    "checkoutButton": "Passer à la livraison",
+    "descriptionName": "En savoir plus sur",
     "products": [
         {
             "name": "starwars",
-            "nameVisible": "Bündel von 3 Lego Star Wars Sets",
-            "priceOld": "546.99€",
-            "descriptionText": "Wo soll man anfangen... LEGO® _Star Wars_™ ist eines unserer beliebtesten Themen überhaupt und inspiriert seit über zwei Jahrzehnten Jedi jeden Alters. Von mehreren Fuß langen imperialen Sternenzerstörern über minutös detaillierte Minifiguren bis hin zu klassischen, familienfreundlichen Videospielen gibt es mehr Möglichkeiten, LEGO Star Wars zu genießen, als man mit einem Lichtschwert machen kann...",
+            "nameVisible": "Lot de 3 ensembles Star Wars",
+            "priceOld": "546,99 €",
+            "descriptionText": "Par où commencer... LEGO® _Star Wars_™ est l'un de nos thèmes les plus appréciés, inspirant des Jedi de tous âges depuis plus de deux décennies. Des destroyers stellaires impériaux de plusieurs mètres de long, aux figurines détaillées minutieusement, en passant par des jeux vidéo classiques et conviviaux pour la famille, il existe de nombreuses façons de profiter de LEGO Star Wars...",
             "imgs": [
                 "./img/products/starwars/starwars1.png",
                 "./img/products/starwars/starwars2.png",
@@ -68,9 +68,9 @@
         },
         {
             "name": "harrypotter",
-            "nameVisible": "Bündel von 3 Lego Harry Potter Sets",
-            "priceOld": "644.99€",
-            "descriptionText": "Erstklässler! Dieser Weg bitte. Alle anderen Jahrgänge? Ähm... Auch dieser Weg. Es ist Zeit, Ihren LEGO™ sprechenden Sprechenden Hut™ aufzusetzen und Ihren Hausstolz zu feiern!",
+            "nameVisible": "Lot de 3 ensembles Harry Potter",
+            "priceOld": "644,99 €",
+            "descriptionText": "Première année ! Par ici, s'il vous plaît. Toutes les autres années ? Euh... Par ici aussi. Il est temps de mettre votre Chapeau Parlante LEGO™ et de célébrer la fierté de votre maison !",
             "imgs": [
                 "./img/products/hp/harrypotter1.png",
                 "./img/products/hp/harrypotter2.png",
@@ -80,9 +80,9 @@
         },
         {
             "name": "architecture",
-            "nameVisible": "Bündel von 3 Lego Architektur Sets",
-            "priceOld": "510.99€",
-            "descriptionText": "Die LEGO® Architecture-Reihe versetzt erwachsene Modellbauer in die Welt der ikonischsten Wahrzeichen und Stadtpanoramen der Welt. Diese hochwertigen Sets bieten ein lohnendes, achtsames Bauerlebnis und resultieren in beeindruckenden Ausstellungsmodellen, die noch lange nach Abschluss der Bauarbeiten Freude bereiten. LEGO Architecture nimmt erwachsene Modellbauer mit auf die kreative Reise ihres Lebens. Und für weitere praktische, geistig anregende LEGO-Sets für Erwachsene schauen Sie sich die komplette Kollektion bei Adults Welcome an.",
+            "nameVisible": "Lot de 3 ensembles Architecture",
+            "priceOld": "510,99 €",
+            "descriptionText": "La gamme LEGO® Architecture transporte les constructeurs adultes dans les monuments et horizons urbains les plus emblématiques du monde. Ces ensembles de qualité supérieure offrent une expérience de construction gratifiante et consciente, et se traduisent par des modèles d'exposition impressionnants qui continuent à procurer du plaisir bien après la fin des travaux. LEGO Architecture emmène les constructeurs adultes dans le voyage créatif de leur vie. Et, pour plus de jeux LEGO pratiques et stimulants pour adultes, consultez la collection complète sur Adults Welcome.",
             "imgs": [
                 "./img/products/arch/architecture1.png",
                 "./img/products/arch/architecture2.png",
@@ -92,9 +92,9 @@
         },
         {
             "name": "marvel",
-            "nameVisible": "Bündel von 3 Lego Marvel Sets",
-            "priceOld": "728.99€",
-            "descriptionText": "Jeder Marvel-Fan hat eine Heldensaga im Kopf, die es mit den Marvel-Filmen aufnehmen kann. Entfesseln Sie es, indem Sie Ihr eigenes Universum mit diesen großartigen Lego Marvel-Spielzeugen kontrollieren. Excelsior!",
+            "nameVisible": "Lot de 3 ensembles Marvel",
+            "priceOld": "728,99 €",
+            "descriptionText": "Chaque fan de Marvel a une saga de héros en tête, rivalisant avec les films Marvel. Libérez-la en prenant le contrôle de votre propre univers avec ces formidables jouets Lego Marvel. Excelsior !",
             "imgs": [
                 "./img/products/marvel/marvel1.png",
                 "./img/products/marvel/marvel2.png",
@@ -104,9 +104,9 @@
         },
         {
             "name": "tech",
-            "nameVisible": "Bündel von 3 Lego Technik Sets",
-            "priceOld": "699.99€",
-            "descriptionText": "Durch mächtige Mechanismen oder fein abgestimmte Finesse-Features macht LEGO® Technic™ Dinge möglich. Hinter jedem Set stehen 3 Prinzipien: Authentizität (wie das Gefühl, dass unsere Fahrzeuge so lebensecht wie möglich sind), Funktionalität (wie die Schaffung von Motoren, die genauso funktionieren wie in der realen Welt) und Herausforderung (um Ihnen das lohnendste Bauerlebnis zu bieten)!",
+            "nameVisible": "Lot de 3 ensembles Technic",
+            "priceOld": "699,99 €",
+            "descriptionText": "Grâce à des mécanismes puissants ou à des fonctionnalités de finesse finement réglées, LEGO® Technic™ fait fonctionner les choses. Chaque ensemble repose sur 3 principes : authenticité (comme faire en sorte que nos véhicules paraissent aussi réalistes que possible), fonctionnalité (comme créer des moteurs qui fonctionnent exactement comme dans la vie réelle) et défi (pour vous offrir l'expérience de construction la plus gratifiante possible) !",
             "imgs": [
                 "./img/products/tech/technic1.png",
                 "./img/products/tech/technic2.png",
